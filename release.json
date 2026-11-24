@@ -73,7 +73,7 @@
       ],
       "images": {
         "api-community": {
-          "reference": "ghcr.io/fibegg/fibe-api:0.1.0-e2bcfe32-community",
+          "reference": "ghcr.io/fibegg/fibe-releases:0.1.0-e2bcfe32-api-community",
           "digest": "sha256:748aaebc35fe6bc1d92af10e5b48ebcf2c8189122df8d25e4a33f00a3c25a382",
           "platforms": {
             "amd64": {
@@ -87,7 +87,7 @@
           }
         },
         "api-enterprise": {
-          "reference": "ghcr.io/fibegg/fibe-api:0.1.0-e2bcfe32-enterprise",
+          "reference": "ghcr.io/fibegg/fibe-releases:0.1.0-e2bcfe32-api-enterprise",
           "digest": "sha256:2a07ba985ef683ee8f59b354887d1b38d7fcc1eba3cdafe56d8ba4631efcb47f",
           "platforms": {
             "amd64": {
@@ -101,7 +101,7 @@
           }
         },
         "ui": {
-          "reference": "ghcr.io/fibegg/fibe-ui:0.1.0-e2bcfe32",
+          "reference": "ghcr.io/fibegg/fibe-releases:0.1.0-e2bcfe32-ui",
           "digest": "sha256:e141ad7ecf5b48afbcc9d2e4d39eee5e00631e3b2b890ba957e7d391bc1a2c4a",
           "platforms": {
             "amd64": {

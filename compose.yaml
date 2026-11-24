@@ -1,10 +1,10 @@
 name: fibe-community
 
-x-api-image: &api-image "ghcr.io/fibegg/fibe-api@sha256:748aaebc35fe6bc1d92af10e5b48ebcf2c8189122df8d25e4a33f00a3c25a382"
+x-api-image: &api-image "ghcr.io/fibegg/fibe-releases@sha256:748aaebc35fe6bc1d92af10e5b48ebcf2c8189122df8d25e4a33f00a3c25a382"
 
 services:
   frontend:
-    image: "ghcr.io/fibegg/fibe-ui@sha256:e141ad7ecf5b48afbcc9d2e4d39eee5e00631e3b2b890ba957e7d391bc1a2c4a"
+    image: "ghcr.io/fibegg/fibe-releases@sha256:e141ad7ecf5b48afbcc9d2e4d39eee5e00631e3b2b890ba957e7d391bc1a2c4a"
     user: "0:0"
     entrypoint: ["/bin/sh", "-ec"]
     command: ["cp -a /srv/ui/. /frontend/ && chmod -R a+rX /frontend"]
