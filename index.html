@@ -12,11 +12,6 @@
     <header>
       <h1>FIBE Releases</h1>
       <p>FIBE is a self-hosted platform for connecting repositories and Hosts, running development environments, and managing AI coding agents from a shared workspace.</p>
-      <nav aria-label="On this page">
-        <a href="#downloads">Downloads</a>
-        <a href="#verify">Verify a download</a>
-        <a href="#compose">Compose quick start</a>
-      </nav>
     </header>
 
     <section aria-labelledby="editions">
@@ -29,25 +24,8 @@
     </section>
 
     <section aria-labelledby="downloads">
-      <h2 id="downloads">Downloads and images</h2>
-      <section aria-label="Release 0.1.0-e2bcfe32"><h3>0.1.0-e2bcfe32</h3><table><thead><tr><th scope="col">Download</th><th scope="col">Size</th></tr></thead><tbody><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/fibe-api-community-amd64">fibe-api-community-amd64</a></td><td>132.33 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/fibe-api-community-arm64">fibe-api-community-arm64</a></td><td>110.34 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/fibe-api-enterprise-amd64">fibe-api-enterprise-amd64</a></td><td>467.68 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/fibe-api-enterprise-arm64">fibe-api-enterprise-arm64</a></td><td>386.96 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/frontend.tar.gz">frontend.tar.gz</a></td><td>2.69 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/THIRD-PARTY-NOTICES.txt">THIRD-PARTY-NOTICES.txt</a></td><td>0.02 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/api-community-amd64.oci.tar">api-community-amd64.oci.tar</a></td><td>95.01 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/api-community-arm64.oci.tar">api-community-arm64.oci.tar</a></td><td>90.88 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/api-enterprise-amd64.oci.tar">api-enterprise-amd64.oci.tar</a></td><td>229.10 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/api-enterprise-arm64.oci.tar">api-enterprise-arm64.oci.tar</a></td><td>221.75 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/ui-amd64.oci.tar">ui-amd64.oci.tar</a></td><td>27.39 MiB</td></tr><tr><td><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/ui-arm64.oci.tar">ui-arm64.oci.tar</a></td><td>27.38 MiB</td></tr></tbody></table><p><a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/SHA256SUMS">SHA256SUMS</a> · <a href="https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/release.json">Release metadata</a></p><ul class="images"><li><code>ghcr.io/fibegg/fibe-releases@sha256:748aaebc35fe6bc1d92af10e5b48ebcf2c8189122df8d25e4a33f00a3c25a382</code></li><li><code>ghcr.io/fibegg/fibe-releases@sha256:2a07ba985ef683ee8f59b354887d1b38d7fcc1eba3cdafe56d8ba4631efcb47f</code></li><li><code>ghcr.io/fibegg/fibe-releases@sha256:e141ad7ecf5b48afbcc9d2e4d39eee5e00631e3b2b890ba957e7d391bc1a2c4a</code></li></ul></section>
-    </section>
-
-    <section aria-labelledby="verify">
-      <h2 id="verify">Verify a download</h2>
-      <p>Save the asset and the SHA256SUMS file for the same version in one directory. On Linux, use SHA-256 to verify the files you downloaded. Each should report <code>OK</code>.</p>
-      <pre><code>curl -fLO https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/SHA256SUMS
-curl -fLO https://github.com/fibegg/fibe-releases/releases/download/0.1.0-e2bcfe32/frontend.tar.gz
-sha256sum --ignore-missing --check SHA256SUMS</code></pre>
-    </section>
-
-    <section aria-labelledby="compose">
-      <h2 id="compose">Compose quick start</h2>
-      <p>Save <a href="compose.yaml" download>compose.yaml</a> and run these commands with Docker Compose. The setup service prepares the local database and the UI image supplies the frontend assets.</p>
-      <pre><code>docker compose up -d
-docker compose ps</code></pre>
-      <p>Open <code>http://localhost:8080</code>. If the setup screen asks for a token, generate one from the running API.</p>
-      <pre><code>docker compose exec api fibe-api --data-dir /data setup token</code></pre>
+      <h2 id="downloads">Downloads</h2>
+      <p>No builds are published at the moment.</p>
     </section>
   </main>
 </body>
